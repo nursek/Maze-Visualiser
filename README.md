@@ -19,15 +19,15 @@ Par défaut, la valeur de `maze_size` est définie à `6`, ce qui génère un la
 
 Pour changer la taille du labyrinthe, modifiez cette ligne dans le code :
 
-\`\`\`ocaml
+```ocaml
 let maze_size = 6
-\`\`\`
+```
 
 Par exemple, pour générer un plus petit labyrinthe de `(2^4 + 1) x (2^4 + 1)` cellules, soit 17x17 :
 
-\`\`\`ocaml
+```ocaml
 let maze_size = 4
-\`\`\`
+```
 
 ## Prérequis
 
